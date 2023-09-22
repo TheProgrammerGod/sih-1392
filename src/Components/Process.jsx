@@ -21,8 +21,7 @@ const Process = () => {
               What do we do?
             </h4>
             <p className=" lg:w-full md:w-full sm:w-1/2 px-1 text-center text-secondary-700 leading-relaxed">
-              Nature is full of mysteries. We try to find real-world problem
-              statements and work passively in order to find their solutions.
+            We collect and recycle electronic waste responsibly, focusing on environmental protection, data security, compliance, and community engagement while promoting sustainability.
             </p>
           </div>
           <div className="flex flex-col items-center md:px-6 py-4 lg:px-12">
@@ -31,9 +30,7 @@ const Process = () => {
               How do we do it?
             </h4>
             <p className="lg:w-full md:w-full sm:w-1/2 px-1 text-center text-secondary-700 leading-relaxed">
-              Well, everyone is blessed with unique skills. We figure out the
-              capabilities of each individual and combine them to work in
-              conjunction.
+We link users with private recyclers for responsible e-waste disposal, prioritizing secure connections, compliance, and eco-friendly community engagement.
             </p>
           </div>
           <div className="flex flex-col items-center md:px-6 py-4 lg:px-12 z-10">
@@ -42,8 +39,7 @@ const Process = () => {
               How are we unique?
             </h4>
             <p className="lg:w-full md:w-full sm:w-1/2 px-1 text-center text-secondary-700 leading-relaxed">
-              Extensive research and on-field analysis are the key factors to
-              our success. Of course, we have other secret ingredients as well!
+            We stand out by serving as a seamless bridge between users and private recyclers, ensuring secure connections, compliance, and community-focused eco-friendly solutions.
             </p>
           </div>
         </div>

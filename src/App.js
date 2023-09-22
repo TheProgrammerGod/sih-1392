@@ -1,7 +1,7 @@
 import './App.css';
 import Carousel from './Components/Carousel';
 import Navbar from './Components/Navbar';
-import EwasteCalculator from './Components/EwasteCalculator';
+import EwasteCalculator from './Components/EWasteCalculator';
 import Process from './Components/Process';
 import Footer from './Components/Footer';
 import ContactUs from './Components/ContactUs';
