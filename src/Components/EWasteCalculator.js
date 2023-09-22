@@ -19,11 +19,11 @@ const EwasteCalculator = () => {
   };
 
   return (
-    <div className="w-1/2 bg-white border-2 border-bubble-gum-700 text-black p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out flex">
+    <div className="w-1/2 flex items-center justify-center text-black p-4 rounded-lg  transition duration-300 ease-in-out">
       <div className="w-1/2 p-4">
         <img src={img_src} alt="ewaste" className="max-w-full h-auto" />
       </div>
-      <form onSubmit={handleSubmit} className="w-1/2 p-4 space-y-4">
+      <form onSubmit={handleSubmit} className=" w-1/2 p-4 space-y-4">
         <div className="text-left pl-2">
           <label htmlFor="category" className="block font-medium text-black">
             Category of Electronic Waste
@@ -31,7 +31,7 @@ const EwasteCalculator = () => {
           <input
             type="text"
             id="category"
-            className="w-full p-2 bg-white border rounded text-black placeholder-gray-400 focus:outline-none focus:border-bubble-gum"
+            className="w-full p-2 bg-white border rounded text-black placeholder-gray-400 focus:outline-none focus:border-[#1F2937]"
             placeholder="E.g., Smartphone, Laptop, etc."
             value={category}
             onChange={(e) => setCategory(e.target.value)}
@@ -45,7 +45,7 @@ const EwasteCalculator = () => {
           <input
             type="text"
             id="model"
-            className="w-full p-2 bg-white border rounded text-black placeholder-gray-400 focus:outline-none focus:border-bubble-gum"
+            className="w-full p-2 bg-white border rounded text-black placeholder-gray-400 focus:outline-none focus:border-[#1F2937]"
             placeholder="E.g., iPhone X, MacBook Pro, etc."
             value={model}
             onChange={(e) => setModel(e.target.value)}
@@ -54,9 +54,9 @@ const EwasteCalculator = () => {
         </div>
         <button
           type="submit"
-          className="bg-bubble-gum hover:bg-bubble-gum-300 text-steel font-bold py-2 px-4 rounded focus:outline-none focus:bg-bubble-gum-300 transition duration-300 ease-in-out"
+          className="bg-[#4763b7] text-[#ffffff] font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
         >
-          Calculate Amount
+          Calculate Credits Points
         </button>
       </form>
       {/* {amountEarned !== null && (
@@ -65,6 +65,7 @@ const EwasteCalculator = () => {
         </div>
       )} */}
     </div>
+    
   );
 };
 

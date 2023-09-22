@@ -14,7 +14,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 function Carousel() {
   return (
-    <div className="mx-auto h-[35vw] w-[100vw]">
+    <div className="mx-auto h-[35vw] w-[100vw] max-w-full">
       <Swiper
         cssMode={true}
         navigation={true}
