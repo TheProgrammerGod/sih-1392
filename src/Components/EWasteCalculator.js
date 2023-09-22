@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import img_src from "../images/form_art.png";
 
-const EWasteCalculator = () => {
+const EwasteCalculator = () => {
   const [category, setCategory] = useState("");
   const [model, setModel] = useState("");
   const [amountEarned, setAmountEarned] = useState(null);
@@ -68,4 +68,4 @@ const EWasteCalculator = () => {
   );
 };
 
-export default EWasteCalculator;
+export default EwasteCalculator;
