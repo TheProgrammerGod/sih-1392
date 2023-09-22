@@ -9,6 +9,10 @@ function App() {
       <Carousel/>
       <EwasteCalculator/>
       
+      {/* <div className='flex'>
+        <div className='w-1/2 border-2 border-bubble-gum-700 rounded-lg'><h1>MAPS</h1></div>
+      <EWasteCalculator className='w-1/2'/>
+      </div> */}
     </div>
   );
 }
