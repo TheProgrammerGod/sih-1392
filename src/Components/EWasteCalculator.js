@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img_src from "../images/form_art.png";
+import img_src from "../assets/form_art.jpg";
 
 const EWasteCalculator = () => {
   const [category, setCategory] = useState("");
@@ -19,7 +19,7 @@ const EWasteCalculator = () => {
   };
 
   return (
-    <div className="w-1/2 bg-white border-2 border-black text-white p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out flex">
+    <div className="w-1/2 bg-white border-2 border-bubble-gum-700 text-black p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out flex">
       <div className="w-1/2 p-4">
         <img src={img_src} alt="ewaste" className="max-w-full h-auto" />
       </div>
@@ -31,7 +31,7 @@ const EWasteCalculator = () => {
           <input
             type="text"
             id="category"
-            className="w-full p-2 bg-black border rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
+            className="w-full p-2 bg-white border rounded text-black placeholder-gray-400 focus:outline-none focus:border-bubble-gum"
             placeholder="E.g., Smartphone, Laptop, etc."
             value={category}
             onChange={(e) => setCategory(e.target.value)}
@@ -45,7 +45,7 @@ const EWasteCalculator = () => {
           <input
             type="text"
             id="model"
-            className="w-full p-2 bg-black border rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
+            className="w-full p-2 bg-white border rounded text-black placeholder-gray-400 focus:outline-none focus:border-bubble-gum"
             placeholder="E.g., iPhone X, MacBook Pro, etc."
             value={model}
             onChange={(e) => setModel(e.target.value)}
@@ -54,16 +54,16 @@ const EWasteCalculator = () => {
         </div>
         <button
           type="submit"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:bg-blue-700 transition duration-300 ease-in-out"
+          className="bg-bubble-gum hover:bg-bubble-gum-300 text-steel font-bold py-2 px-4 rounded focus:outline-none focus:bg-bubble-gum-300 transition duration-300 ease-in-out"
         >
           Calculate Amount
         </button>
       </form>
-      {amountEarned !== null && (
+      {/* {amountEarned !== null && (
         <div className="mt-4">
           <p className="font-semibold">Amount Earned: ${amountEarned}</p>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
