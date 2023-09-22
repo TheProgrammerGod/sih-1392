@@ -3,32 +3,26 @@ import { HiOutlineTrash } from 'react-icons/hi'; // Import the Trash icon from H
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        {/* Display the Trash icon */}
-        <HiOutlineTrash className="w-12 h-12 text-white" /> {/* Adjust the width and height as needed */}
-        <ul className="flex space-x-4">
+    <nav className="bg-gray-800 text-white p-4 font-Comfortaa">
+      <div className="container max-w-[1400px] mx-auto flex justify-between items-center">
+        <div className="">
+          <p className="text-[1rem]">E-WASTE LOCATOR</p>
+        </div>
+        <ul className=" w-[20%] flex justify-between items-center text-[0.8rem] mx-[1.5rem]">
           <li className="nav-item">
-            <a href="/" className="hover:underline">Home</a>
+            <a href="/" className="p-[0.5rem]  hover:bg-gray-900 rounded-md  active:bg-gray-900">Home</a>
           </li>
           <li className="nav-item">
-            <a href="/about" className="hover:underline">About</a>
+            <a href="/about" className="p-[0.5rem] hover:bg-gray-900 rounded-md">About</a>
           </li>
           <li className="nav-item">
-            <a href="/services" className="hover:underline">Services</a>
+            <a href="/services" className="p-[0.5rem] hover:bg-gray-900 rounded-md">Services</a>
           </li>
-          <li className="nav-item">
-            <a href="/contact" className="hover:underline">Contact</a>
+          <li className=" nav-item">
+            <a href="/contact" className="p-[0.5rem] hover:bg-gray-900 rounded-md">Contact</a>
           </li>
         </ul>
-        <div className="flex space-x-4">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Register
-          </button>
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
-            Log In
-          </button>
-        </div>
+        
       </div>
     </nav>
   );
