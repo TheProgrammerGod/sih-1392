@@ -56,7 +56,7 @@ const EwasteCalculator = () => {
           type="submit"
           className="bg-[#4763b7] text-[#ffffff] font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
         >
-          Calculate Credits Points
+          Predict Credits Points
         </button>
       </form>
       {/* {amountEarned !== null && (
